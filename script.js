@@ -3,14 +3,6 @@ var colorOne = document.querySelector('.color-one');
 var colorTwo = document.querySelector('.color-two');
 var body = document.getElementById('gradient');
 
-
-//body.style.background = 'red';
-
-//console.log(css);
-//console.log(colorOne);
-//console.log(colorTwo);
-
-
 function setGradient() {
     body.style.background = 'linear-gradient(to right,'
         + colorOne.value + ', ' + colorTwo.value + ')';
